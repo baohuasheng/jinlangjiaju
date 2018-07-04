@@ -1,0 +1,64 @@
+.form {
+    .form-item {
+        .flex(nowrap,flex-start,flex-start);
+        padding-right: 70px;
+        font-size: 24px;
+        margin-bottom: 18px;
+        .label {
+            width: 174px;
+            display: block;
+            text-align: right;
+            line-height: 60px;
+        }
+        input {
+            width: ~"calc(100% - 174px)";
+            height: 60px;
+            border: 1px solid #000000; /*no*/
+            background: transparent;
+            font-size: 24px;
+            padding-left: 10px;
+            line-height: 58px;
+        }
+        textarea {
+            width: ~"calc(100% - 174px)";
+            height: 140px;
+            border: 1px solid #000000; /*no*/
+            background: transparent;
+            font-size: 24px;
+            padding-left: 10px;
+            line-height: 58px;
+        }
+        .code {
+            .m-imgCenter(136px,60px);
+            margin-left: 15px;
+        }
+        .code-input {
+            width: 250px;
+        }
+        .distpicker {
+            width: ~"calc(100% - 174px)";
+            .flex;
+            select {
+                width: 48%;
+                height: 60px;
+                border: 1px solid #000000; /*no*/
+                background: transparent;
+                font-size: 24px;
+            }
+        }
+    }
+    .form-btn {
+        margin-top: 45px;
+        text-align: center;
+        button {
+            width: 213px;
+            height: 60px;
+            color: #fff;
+            font-size: 36px;
+            line-height: 36px;
+            text-align: center;
+            background: #710000;
+            border: none;
+        }
+    }
+}

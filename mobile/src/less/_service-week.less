@@ -1,0 +1,25 @@
+.week-list {
+    width: 100%;
+    li {
+        height: 154px;
+        width: 100%;
+        margin-bottom: 14px;
+        border: 1px solid #6d6d6d; /*no*/
+        position: relative;
+        .flex(nowrap,flex-start);
+        padding: 0 7px;
+        .week-list-img {
+            overflow: hidden;
+            .m-imgCenter(206px,130px);
+            margin-right: 26px;
+        }
+        .week-list-txt {
+            width: ~"calc(100% - 232px)";
+            .ellipsis2(1);
+            font-size: 35px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
